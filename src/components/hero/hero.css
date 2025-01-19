@@ -95,26 +95,29 @@
 
 @media screen and (min-width: 769px) {
 	.hero {
-		padding: 12rem 0 5rem 0;
-	}
-	.hero .hero__img {
-		max-width: 35rem;
+		padding: 8rem 4rem;
 	}
 	.hero .hero__container {
-		display: flex;
-		max-width: 100%;
-		gap: 0;
-		flex-direction: column-reverse;
-		justify-content: center;
-		align-items: center;
+		display: grid;
+		grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+		gap: 6rem;
+		align-items: center; /* Asegura que los elementos dentro de las columnas estén centrados verticalmente */
+	}
+	.hero .hero__img {
+		width: 100%; /* Aumenta el tamaño de la imagen */
+		max-width: 25rem; /* Limita su tamaño máximo */
+		margin: 0 auto; /* Centra la imagen horizontalmente */
+		align-self: center; /* Centra la imagen verticalmente dentro de su columna */
 	}
 	.hero .text__content {
-		align-items: center;
+		align-items: flex-start; /* Alinea el texto a la izquierda */
 	}
-
 	.hero .hero__text {
-		font-size: var(--text-x-large);
-		text-align: center;
+		font-size: 2.5rem; /* Tamaño mayor para textos */
+		text-align: left; /* Alineación del texto */
+	}
+	.hero .hero__title p {
+		max-width: 60%; /* Reduce el ancho del párrafo */
 	}
 }
 
