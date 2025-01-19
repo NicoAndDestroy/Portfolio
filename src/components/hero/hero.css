@@ -93,6 +93,31 @@
 	}
 }
 
+@media screen and (min-width: 769px) {
+	.hero {
+		padding: 12rem 0 5rem 0;
+	}
+	.hero .hero__img {
+		max-width: 35rem;
+	}
+	.hero .hero__container {
+		display: flex;
+		max-width: 100%;
+		gap: 0;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	.hero .text__content {
+		align-items: center;
+	}
+
+	.hero .hero__text {
+		font-size: var(--text-x-large);
+		text-align: center;
+	}
+}
+
 @keyframes presentation {
 	0% {
 		background-size: 200%;
