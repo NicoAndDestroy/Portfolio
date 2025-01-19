@@ -110,7 +110,9 @@
 		align-self: center; /* Centra la imagen verticalmente dentro de su columna */
 	}
 	.hero .text__content {
-		align-items: flex-start; /* Alinea el texto a la izquierda */
+		max-width: 100%; /* Limita el ancho del contenedor del texto */
+		overflow: hidden; /* Evita que el contenido desborde */
+		text-align: left; /* Asegura que el texto esté alineado correctamente */
 	}
 	.hero .hero__text {
 		font-size: 2.5rem; /* Tamaño mayor para textos */
@@ -132,3 +134,36 @@
 		background-size: 100%;
 	}
 }
+
+/* Annimaciones*/
+
+#typewriter {
+	display: inline-block;
+	overflow: hidden; /* Oculta el texto no "escrito" */
+	white-space: normal; /* Permite saltos de línea */
+	animation: typing 4s steps(40, end) forwards; /* Efecto de escritura */
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: var(--on-primary);
+	position: relative; /* Para posicionar el cursor */
+  }
+  
+  #typewriter::after {
+	content: ''; /* Crea el cursor */
+	position: absolute;
+	bottom: 0; /* Alinea el cursor con el texto */
+	left: calc(100%); /* Coloca el cursor al final del texto visible */
+	width: 2px;
+	height: 1em; /* Altura similar al texto */
+	background-color: var(--on-primary);
+	animation: blink 0.7s steps(2) infinite; /* Cursor parpadeante */
+  }
+  
+  @keyframes blink {
+	0%, 100% {
+	  border-color: transparent;
+	}
+	50% {
+	  border-color: var(--on-primary);
+	}
+  }
