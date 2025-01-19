@@ -1,15 +1,13 @@
----
-const {name} = Astro.props;
+--- 
+const {name} = Astro.props; 
 ---
 
 <a href="/" class="profile">
     <div class="img__container">
         <img
             class="header__img"
-            src="/img/jhon-doe.webp"
-            alt="sofiDev img"
-            width="40px"
-            height="40px"
+            src="/img/nicoProfilephoto.jpg"
+            alt="Ni"
         />
     </div>
     <h3 class="color__gradiente header__title">
@@ -18,21 +16,32 @@ const {name} = Astro.props;
 </a>
 
 <style>
+/* Contenedor para la imagen circular */
+.img__container {
+    width: 40px; /* Tamaño del contenedor */
+    height: 40px; /* Igual al ancho para que sea un círculo */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    overflow: hidden; /* Asegura que la imagen no salga del contenedor */
+    transition: 0.35s transform; /* Efecto suave al pasar el mouse */
 
- .img__container {
-	border-radius: 50%;
-	overflow: hidden;
-	transition: 0.35s transform;
 }
 
- .img__container:hover {
-	transform: scale(1.1);
+.img__container:hover {
+    transform: scale(1.1); /* Amplía el círculo ligeramente al pasar el mouse */
 }
 
- .profile {
-	display: flex;
-	border-radius: 50%;
-	align-items: center;
-	gap: 1.5rem;
+/* Imagen dentro del contenedor */
+.header__img {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa todo el alto del contenedor */
+    object-fit: cover; /* Recorta la imagen para llenar el contenedor sin deformarse */
+    object-position: center 32%; /* Ajusta la posición de tu rostro */
+}
+
+/* Contenedor principal de la navbar */
+.profile {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 1.5rem; /* Espaciado entre la imagen y el texto */
 }
 </style>

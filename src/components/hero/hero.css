@@ -18,18 +18,23 @@
 .hero::after {
 	content: '';
 	position: absolute;
-	height: 6rem;
+	height: 4rem;
 	width: 100%;
 	background: linear-gradient(0deg, var(--primary-0), #0000);
 	bottom: 0;
 }
 
-.hero .hero__img {
-	width: 100%;
-	max-width: 38rem;
-	border-radius: 50%;
-	height: auto;
-}
+.hero__img {
+	width: 35%; /* Ajusta el tamaño relativo al contenedor */
+	height: auto; /* Mantiene las proporciones de la imagen */
+	aspect-ratio: 1 / 1; /* Asegura que el círculo sea perfecto */
+	object-fit: cover; /* Recorta la imagen sin deformarla */
+	object-position: center 32%; /* Ajusta la posición de tu rostro */
+	border-radius: 50%; /* Hace que el contenedor sea circular */
+	overflow: hidden; /* Oculta cualquier parte fuera del círculo */
+
+  }
+  
 
 .hero .hero__container {
 	display: grid;
@@ -68,7 +73,7 @@
 		padding: 12rem 0 5rem 0;
 	}
 	.hero .hero__img {
-		max-width: 28rem;
+		max-width: 35rem;
 	}
 	.hero .hero__container {
 		display: flex;
