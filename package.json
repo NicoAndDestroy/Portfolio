@@ -20,7 +20,6 @@
   },
   "description": "![Portada](image-1.png)",
   "main": "index.astro",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SofiDevO/portfolio-astrosofidev-garrux.git"

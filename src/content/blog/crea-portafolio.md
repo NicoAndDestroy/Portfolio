@@ -29,11 +29,11 @@ Aquí, `saludar` es el nombre de la función, y `(nombre)` son los parámetros q
 ### Ejecución de Funciones
 
 ```javascript
-saludar("Juan");
-// Salida: ¡Hola, Juan!
+saludar("Nicolas");
+// Salida: ¡Hola, Nicolas!
 ```
 
-Al llamar a la función `saludar` con el argumento `"Juan"`, ejecutamos el código dentro de la función y obtenemos la salida esperada.
+Al llamar a la función `saludar` con el argumento `"Nicolas"`, ejecutamos el código dentro de la función y obtenemos la salida esperada.
 
 ### Tipos de Funciones
 

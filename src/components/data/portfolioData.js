@@ -17,27 +17,26 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
+		imgSrc: "/img/weddingincartagena.png",
 		title: 'Wedding In Cartagena',
-		skills: ['Astro', 'CSS', 'JavaScript'],
+		skills: ['JavaScript', 'Astro', 'CSS, Tailwind'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'For the development of Wedding in Cartagena, I utilized HTML, CSS (including Flexbox and Grid for responsive layouts), JavaScript, and React to create interactive and dynamic applications with advanced techniques and best practices. Additionally, I incorporated the Astro framework to optimize resources, ensuring a seamless and fast user experience.I focused on creating a functional and aesthetically pleasing user interface, prioritizing simplicity to draw the attention of potential clients. This design was based on comprehensive competitor research to understand market trends and effective sales strategies.',
+		demoURL: 'https://www.weddingincartagena.com/',
+		repoURL: 'https://gitlab.com/uroboros2/weddingincartagena.com',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'Londri App',
-		skills: ['Figma', 'Bootstrap'],
+		imgSrc: 'https://www.weddingincartagena.com/_astro/values_16.BUHFBS_k_Z1eea2R.webp',
+		title: 'LondriApp',
+		skills: ['Figma', 'Astro', 'CSS, Tailwind'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
+			' In collaboration with my team, we conducted comprehensive market research to analyze potential competitors and identify the key features of existing solutions. This research helped us define the essentials for our MVP, complemented by interviews with various stakeholders to ensure alignment with user needs. With the basic requirements and competition shortcomings identified, we began prototyping low-fidelity designs. Through iterative processes, we improved usability and visibility across both desktop and mobile formats, ensuring a seamless user experience.',
+		demoURL: 'https://www.figma.com/proto/K1iyedrXqy264RBLmDUDCj/Londri-Web-Final?node-id=0-1&t=TBJUr07nL8l9fMcQ-1',
 		repoURL: '',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
-	},
-
+	}
 ];
 
 const skillIcons = {
