@@ -15,15 +15,6 @@
 	justify-content: center;
 }
 
-.hero::after {
-	content: '';
-	position: absolute;
-	height: 4rem;
-	width: 100%;
-	background: linear-gradient(0deg, var(--primary-0), #0000);
-	bottom: 0;
-}
-
 .hero__img {
 	width: 35%; /* Ajusta el tamaño relativo al contenedor */
 	height: auto; /* Mantiene las proporciones de la imagen */
