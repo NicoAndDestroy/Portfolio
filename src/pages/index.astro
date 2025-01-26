@@ -1,6 +1,5 @@
 ---
 import About from '../components/About/About.astro';
-import BlogHome from '../components/BlogHome.astro';
 import { mainMenu } from '../components/data/menuData';
 import Footer from '../components/Footer/Footer.astro';
 import Header from '../components/header/Header.astro';
@@ -12,13 +11,15 @@ import StarsBackground from '../components/StarsBackground.astro';
 ---
 
 <Layout title="Nicolas Morales | Front-End / UX & UI Developer">
-	<Header origin={mainMenu} />
+	
+	
 	<main class="self-center w-full">
+		<Header origin={mainMenu} />
 		<Hero />
 		<About />
 		<Skills />
 		<Portfolio />
-		<! -- BlogHome--> 
+		<StarsBackground /> 
 	</main>
-	<Footer/>
+	<Footer />
 </Layout>

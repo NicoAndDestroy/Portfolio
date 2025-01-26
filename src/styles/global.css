@@ -101,12 +101,12 @@ p{
 
 /* === Animación de fondo con estrellas === */
 body {
-	width: 100%;
-	background: var(--site-bg) no-repeat;
-	background-size: cover;
-	margin: 0;
-	padding: 0;
-	overflow: hidden; /* Para evitar scrolls no deseados */
+    width: 100%;
+    background: var(--site-bg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Bloquea solo el scroll horizontal */
 }
 
 .stars {
