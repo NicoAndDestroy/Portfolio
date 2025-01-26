@@ -94,6 +94,10 @@ p{
 	-webkit-text-fill-color: transparent;
 }
 
+.hero {
+	background: transparent;
+}
+
 .max__width {
 	max-width: 117.8rem;
 }

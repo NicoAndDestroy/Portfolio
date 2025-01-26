@@ -21,25 +21,25 @@ const stars = Array.from({ length: NUM_STARS }, (_, i) => ({
 	
 	.star {
 		position: absolute;
-		width: 2px; /* Tamaño de las estrellas */
+		width: 3px; /* Tamaño de las estrellas */
 		height: 2px;
 		background-color: white;
 		border-radius: 50%; /* Hace que las estrellas sean circulares */
-		animation: twinkle 3s infinite ease-in-out; /* Efecto de parpadeo */
+		animation: twinkle 4s infinite ease-in-out; /* Efecto de parpadeo */
+		animation-direction: alternate;
 	}
 	
 	@keyframes twinkle {
-		0%, 100% {
-			opacity: 0.8;
+		0%, 30% {
+			opacity: 0.1;
 		}
-		50% {
-			opacity: 1;
+		30% {
+			opacity: 0.3;
 		}
 	}
 	</style>
 	
 	<div class="stars">
-		<p style="color: white; text-align: center;">Stars Background Loaded</p>
 		{stars.map((star) => (
 			<div
 				class="star"
