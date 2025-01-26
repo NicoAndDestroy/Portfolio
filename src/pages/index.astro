@@ -11,15 +11,15 @@ import StarsBackground from '../components/StarsBackground.astro';
 ---
 
 <Layout title="Nicolas Morales | Front-End / UX & UI Developer">
-	
-	
-	<main class="self-center w-full">
-		<Header origin={mainMenu} />
-		<Hero />
-		<About />
-		<Skills />
-		<Portfolio />
+	<div style="position: relative;">
 		<StarsBackground /> 
-	</main>
+		<main class="self-center w-full">
+			<Header origin={mainMenu} />
+			<Hero />
+			<About />
+			<Skills />
+			<Portfolio />
+		</main>
+	</div>
 	<Footer />
 </Layout>
