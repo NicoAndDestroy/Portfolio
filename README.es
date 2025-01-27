@@ -1,51 +1,93 @@
-# ¡Hola, soy Nicolás Morales! 👋
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - Nicolás Morales en</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #444;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .badge {
+            display: inline-block;
+            margin: 5px 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi, I'm Nicolás Morales! 👋</h1>
+    <p>I'm a Frontend web developer and UI/UX designer passionate about creating innovative, accessible, and functional solutions. 🎨💻 My focus combines aesthetic design with cutting-edge technology, delivering standout digital experiences.</p>
 
-Soy un desarrollador web Frontend y diseñador UI/UX apasionado por crear soluciones innovadoras, accesibles y funcionales. 🎨💻 Mi enfoque combina diseño estético con tecnología de vanguardia, logrando experiencias digitales que destacan.
+    <h2>🚀 About Me</h2>
+    <ul>
+        <li>🌟 <strong>Frontend Developer:</strong> Currently learning and working with technologies like HTML, CSS, JavaScript, Astro, Tailwind CSS, React, and Progressive Web Apps (PWA).</li>
+        <li>🎮 <strong>Content Creator:</strong> I have a gaming channel where I share game lore and fun moments.</li>
+        <li>🎨 <strong>UI/UX Designer:</strong> I specialize in Figma for prototyping and interface design.</li>
+        <li>🎶 <strong>Self-taught Musician:</strong> Creativity flows in my life beyond coding.</li>
+        <li>🌍 <strong>Advanced English:</strong> With over 5 years of experience as a bilingual customer service agent, I am fluent in both written and spoken English.</li>
+        <li>📍 <strong>Location:</strong> Funza, Cundinamarca, Colombia.</li>
+    </ul>
 
-## 🚀 Sobre mí
-- 🌟 **Frontend Developer:** Actualmente aprendiendo y trabajando con tecnologías como HTML, CSS, JavaScript, Astro, Tailwind CSS, React y Progressive Web Apps (PWA).
-- 🎮 **Creador de contenido:** Tengo un canal de videojuegos donde comparto el lore de juegos y momentos divertidos.
-- 🎨 **Diseñador UI/UX:** Me especializo en Figma para prototipos y diseño de interfaces.
-- 🎶 **Músico empírico:** La creatividad también fluye en mi vida fuera del código.
-- 🌍 **Inglés avanzado:** Gracias a más de 5 años de experiencia como agente de servicio al cliente bilingüe, manejo el inglés con fluidez tanto a nivel escrito como hablado.
-- 📍 **Ubicación:** Funza, Cundinamarca, Colombia.
+    <h2>🌟 Featured Projects</h2>
+    <ul>
+        <li><strong>Le Mariage:</strong> Design and development of a landing page with Astro for a wedding planning company.</li>
+        <li><strong>Madeira Viva:</strong> Creation of a website for my personalized furniture business focusing on ergonomics.</li>
+        <li><strong>Londri App:</strong> App for managing laundry services.</li>
+        <li><strong>Personal Portfolio:</strong> A main website showcasing my work and skills.</li>
+    </ul>
 
-## 🛠️ Tecnologías y herramientas
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)  
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)  
-![Astro](https://img.shields.io/badge/-Astro-FF5D01?style=flat&logo=astro&logoColor=white)  
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)  
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white)  
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white)  
-![QuickBooks](https://img.shields.io/badge/-QuickBooks-2CA01C?style=flat&logo=intuit&logoColor=white)  
+    <h2>🌐 Find Me On:</h2>
+    <ul>
+        <li>🌟 <a href="https://portfolio-nicolas-morales-projects-b58a6add.vercel.app/">My Portfolio</a></li>
+        <li>🎨 <a href="https://www.figma.com/@NicoAndDestroy">Figma</a></li>
+        <li>💼 <a href="https://www.linkedin.com/in/nicolas-morales-663297a3/">LinkedIn</a></li>
+        <li>🖤 <a href="https://github.com/NicoAndDestroy">GitHub</a></li>
+        <li>🎮 <a href="https://www.youtube.com/@NicoAndDestroy">Gaming Channel</a></li>
+    </ul>
 
-## 🌟 Proyectos destacados
-1. **Le Mariage:** Diseño y desarrollo de una landing page con Astro para una empresa de wedding planning.
-2. **Madeira Viva:** Creación de una página para mi emprendimiento de muebles personalizados con enfoque en ergonomía.
-3. **Londri App:** Aplicación para gestionar servicios de lavandería.
-4. **Portafolio Personal:** Página principal que refleja mi trabajo y habilidades.
+    <h2>📈 My GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=NicoAndDestroy&show_icons=true&theme=radical" alt="GitHub Stats" class="badge">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NicoAndDestroy&layout=compact&theme=radical" alt="Top Langs" class="badge">
 
-## 🌐 Encuéntrame en:
-- 🌟 [Mi portafolio](https://miportafolio.com) *(Ejemplo: cambiar por tu URL real)*
-- 🎨 [Figma](https://www.figma.com/@nicolasmorales)
-- 💼 [LinkedIn](https://linkedin.com/in/nicolasmorales)
-- 🖤 [GitHub](https://github.com/nicolasmorales)
-- 🎮 [Canal de videojuegos](https://youtube.com/@nicolasmorales)
+    <h2>🛠️ Technologies and Tools</h2>
+    <ul>
+        <li>🌐 <strong>Frontend:</strong> HTML, CSS, JavaScript, Astro, React, Tailwind CSS</li>
+        <li>📱 <strong>Advanced Development:</strong> Progressive Web Apps (PWA)</li>
+        <li>🎨 <strong>UI/UX Design:</strong> Figma, Adobe XD, Miroo</li>
+        <li>⚙️ <strong>Tools:</strong> Git, GitHub, VSCode, npm</li>
 
-## 📈 Mis estadísticas en GitHub
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nicolasmorales&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nicolasmorales&layout=compact&theme=radical)
+    </ul>
 
----
+    <hr>
 
-## 🌟 Conoce más sobre mí
-Además de ser desarrollador Frontend y diseñador UI/UX, disfruto explorar otras áreas creativas. 🎥 A continuación, algunos proyectos e intereses adicionales:
+    <h2>🌟 Learn More About Me</h2>
+    <p>In addition to being a Frontend developer and UI/UX designer, I enjoy exploring other creative areas. 🎥 Here are some additional projects and interests:</p>
+    <ul>
+        <li><strong>Video Editing:</strong> Experience with Adobe Premiere Pro for personal and collaborative projects.</li>
+        <li><strong>Music Channel:</strong> <a href="https://www.instagram.com/j_nicolas_m_s/">Discover my compositions</a></li>
+    </ul>
 
-- **Edición de video:** Experiencia con Adobe Premiere Pro para proyectos personales y colaborativos.
-- **Canal de música:** [Descubre mis composiciones](https://soundcloud.com/nicolasmorales) *(Ejemplo: cambiar por tu URL real)*.
+    <blockquote>“Continuous learning is my superpower. I'm always looking for new ways to create and inspire.” ✨</blockquote>
 
-> “El aprendizaje continuo es mi superpoder. Siempre estoy en búsqueda de nuevas formas de crear e inspirar.” ✨
-
-¿Te interesa colaborar o simplemente charlar? ¡Envíame un mensaje! 😊
-
+    <p>Interested in collaborating or just want to chat? Send me a message! 😊</p>
+</body>
+</html>
